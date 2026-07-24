@@ -35,7 +35,7 @@ The framework processes data through a structured, modular 6-phase lifecycle to 
 2. **Phase 2: Mathematical Baseline** – Pure data-driven feature ranking integrated with internal cross-validation stability checks.
 3. **Phase 3: Domain Alignment** – Application of the **Clinical Knowledge Broker Matrix** via a vectorized Hadamard Product:
 4. 
-``` $\vec{S}_{\text{adjusted}} = \vec{S}_{\text{statistical}} \odot \vec{W}_{\text{clinical}}$ ```
+```$$\\vec{S}_{\\text{adjusted}} = \\vec{S}_{\\text{statistical}} \\odot \\vec{W}_{\\text{clinical}}$$ ```
 
 5. **Phase 4: Dimension Stratification** – Slicing the adjusted rankings into distinct operational tiers (`Top-5`, `Top-10`, `Top-15`, `Top-20`).
 6. **Phase 5: Performance Validation** – Cost-sensitive evaluation across distinct model families (XGBoost, Logistic Regression, Random Forest).
